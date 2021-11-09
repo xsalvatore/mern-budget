@@ -106,7 +106,7 @@ export const deleteTransaction = (transaction) => async (dispatch) => {
   const config = {
     headers: {
       'Content-Type': 'application/json',
-      ' ': localStorage.token,
+      'x-auth-token': localStorage.token,
     },
   };
 
