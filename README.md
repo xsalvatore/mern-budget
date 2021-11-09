@@ -19,7 +19,7 @@ Inside the file, you will need to add your own ```MONGO_URI``` and ```JWT_SECRET
 ```
 {
   "MONGO_URI": "...",
-  "JWT_TOKEN: "..."
+  "JWT_SECRET: "..."
 }
 ```
 
